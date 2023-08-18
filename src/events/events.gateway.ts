@@ -10,7 +10,7 @@ import { map } from "rxjs/operators";
 import { Server } from "socket.io";
 
 @WebSocketGateway({
-  path: "/v1/socket",
+  namespace: "/v1/socket",
   cors: {
     origin: "*",
   },
